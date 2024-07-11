@@ -22,28 +22,7 @@ function App() {
 
 
   return (
-    <div className="App">
-      <Accessibility 
-      toggleSound={toggleSound}
-      soundOn={soundOn}
-      animateOn={animateOn}
-      toggleAnimate={toggleAnimate}
-      />
-      <Hero />
-      <Details />
-      <div>
-        {/* date, time, map => Angel */}
-        <div>
-          <p>Date: July 25, 2024</p>
-          <p>Time: 10:00 AM - 4:00 PM</p>
-          <p>Location: 2 PL, Court Street, Brooklyn, New York</p>
-        </div>
-        </div>
-        <Share />
-        {/* share icons => Angel */}
-      <Gallery />
-      <Footer />
-
+    <div className="App">      
       <div className='container'>
         <Accessibility 
         toggleSound={toggleSound}
