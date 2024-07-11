@@ -13,8 +13,8 @@ function App() {
     <div className="App">
       <Accessibility />
       <Hero />
-      <Details />
-      <Share />
+      <Details /> {/* date, time, map => Angel */}
+      <Share /> {/* share icons => Angel */}
       <Gallery />
       <Footer />
     </div>
