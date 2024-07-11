@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import Share from './components/Share';
 import Hero from './components/Hero';
+import Map from './components/Map';
 
 function App() {
   const [soundOn, setSoundOn] = useState(true);
@@ -42,6 +43,21 @@ function App() {
         {/* share icons => Angel */}
       <Gallery />
       <Footer />
+
+      <div className='container'>
+        <Accessibility 
+        toggleSound={toggleSound}
+        soundOn={soundOn}
+        animateOn={animateOn}
+        toggleAnimate={toggleAnimate}
+        />
+        <Hero />
+        <Details />      
+        <Share />
+        <Map />
+        <Gallery />
+        <Footer />
+      </div>
     </div>
   );
 }

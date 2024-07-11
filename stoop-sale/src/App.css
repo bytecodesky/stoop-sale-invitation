@@ -1,10 +1,15 @@
 .App {
+  
+  background: linear-gradient(45deg, lightpink, rgb(238, 238, 78));
+  min-height: 100vh;
+  
+}
+
+.container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
   justify-items: center;
-  background: linear-gradient(45deg, lightpink, rgb(238, 238, 78));
-  min-height: 100vh;
   padding-top: 2rem;
   padding-bottom: 1rem;
   width: 80%;

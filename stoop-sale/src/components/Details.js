@@ -3,8 +3,10 @@ import './Details.css';
 
 export default function Details() {
     return (
-        <div>
-            <h2>-- July 20 -- 10:00AM --</h2>
+        <div>            
+            <p>Date: July 25, 2024</p>
+            <p>Time: 10:00 AM - 4:00 PM</p>
+            <p>Location: 2 PL, Court Street, Brooklyn, New York</p>     
         </div>
     )
 }
