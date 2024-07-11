@@ -1,20 +1,11 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+
 
 export default function Map() {
-    const position = [40.6794685, -73.9973452]
+    
     return (
         <div>
-            <MapContainer center={position} zoom={13} scrollWheelZoom={false}>
-                <TileLayer
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-                <Marker position={position}>
-                     <Popup>
-                        A pretty CSS3 popup. <br /> Easily customizable.
-                    </Popup>
-                </Marker>
-            </MapContainer>
+            <iframe width="600" height="450" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:EioybmQgUGwgJiBDb3VydCBTdCwgQnJvb2tseW4sIE5ZIDExMjMxLCBVU0EiZiJkChQKEglXGRhcWFrCiRGyde_BuJTmUBIUChIJVxkYXFhawokRsnXvwbiU5lAaFAoSCVuuBfJYWsKJEQIicj09qGFVGhQKEgnhT8evWVrCiRFy1_bXvC3EPSIKDVQzPxgVOOnk0w&key=AIzaSyADaoH9FEmhNoC8x6rTJjRToDihABF-sFk"></iframe>
         </div>
     )
 }
