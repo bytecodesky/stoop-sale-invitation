@@ -1,6 +1,5 @@
 .accessibility--section {
-    position: absolute;
-    left: 2rem;
+    align-self: flex-start;
 }
 
 img {
