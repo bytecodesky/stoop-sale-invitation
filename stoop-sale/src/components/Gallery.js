@@ -3,6 +3,8 @@ import './Gallery.css';
 
 export default function Gallery() {
     return (
-        <div></div>
+        <div>
+            
+        </div>
     )
 }

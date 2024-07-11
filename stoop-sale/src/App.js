@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import React, {useState} from 'react';
 import Accessibility from './components/Accessibility';
 import Details from './components/Details';
 import Footer from './components/Footer';
@@ -10,9 +10,26 @@ import Map from './components/Map';
 
 
 function App() {
+  const [soundOn, setSoundOn] = useState(true);
+  const [animateOn, setAnimateOn] = useState(true);
+
+  function toggleSound() {
+    setSoundOn(!soundOn);
+  }
+
+  function toggleAnimate() {
+    setAnimateOn(!animateOn);
+  }
+
+
   return (
     <div className="App">
-      <Accessibility />
+      <Accessibility 
+      toggleSound={toggleSound}
+      soundOn={soundOn}
+      animateOn={animateOn}
+      toggleAnimate={toggleAnimate}
+      />
       <Hero />
       <Details />
       <div>
