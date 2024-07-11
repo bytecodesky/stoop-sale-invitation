@@ -10,9 +10,14 @@ import Hero from './components/Hero';
 
 function App() {
   const [soundOn, setSoundOn] = useState(true);
+  const [animateOn, setAnimateOn] = useState(true);
 
   function toggleSound() {
     setSoundOn(!soundOn);
+  }
+
+  function toggleAnimate() {
+    setAnimateOn(!animateOn);
   }
 
 
@@ -21,6 +26,8 @@ function App() {
       <Accessibility 
       toggleSound={toggleSound}
       soundOn={soundOn}
+      animateOn={animateOn}
+      toggleAnimate={toggleAnimate}
       />
       <Hero />
       <Details /> {/* date, time, map => Angel */}
