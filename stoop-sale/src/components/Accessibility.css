@@ -17,3 +17,7 @@ p {
     flex-direction: row;
     align-items: end;
 }
+
+img:hover {
+    cursor: pointer;
+}

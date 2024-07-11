@@ -8,6 +8,7 @@ import img3 from './images/clothes2.jpg';
 export default function Gallery() {
     return (
         <div className='gallery--section'>
+            <h2>Many Wonderful Wares!</h2>
             <p className='gallery'>
                 <img className='gallery--img' src={img1} alt='pair of shoes'/>
                 <img className='gallery--img' src={img2} alt='stack of dishes for sale'/>

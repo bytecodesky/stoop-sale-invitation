@@ -4,6 +4,11 @@
     margin: 100px auto;
     position: relative;
 }
+
+h2 {
+    margin: 0;
+    text-align: center;
+}
   
 .gallery--img {
     height: 100px;
