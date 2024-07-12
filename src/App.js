@@ -12,9 +12,6 @@ function App() {
   
   const [animateOn, setAnimateOn] = useState(true);
 
-  function toggleSound() {
-    setSoundOn(!soundOn);
-  }
 
   function toggleAnimate() {
     setAnimateOn(!animateOn);
@@ -25,8 +22,7 @@ function App() {
     <div className="App">      
       <div className='container'>        
         <Accessibility 
-        toggleSound={toggleSound}
-        soundOn={soundOn}
+        
         animateOn={animateOn}
         toggleAnimate={toggleAnimate}
         />
@@ -40,7 +36,9 @@ function App() {
         <Map 
         animateOn={animateOn}
         />
-        <Gallery />
+        <Gallery 
+        animateOn={animateOn}
+        />
         <Footer />
       </div>
     </div>

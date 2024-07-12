@@ -26,6 +26,20 @@ h2 {
     transition: transform .4s ease-out, offset-path .4s cubic-bezier(.77,-1.17,.75,.84),box-shadow .3s, z-index .3s;
     z-index: 0;
 }
+
+.gallery--imgOff {
+    height: 100px;
+    position: absolute;
+    left: 0;
+    offset-path: path('m 0 50 q 50-30 100-30 t 100 30 100 0 100-30 100 30');
+    box-shadow: 1px 1px 3px #0008;    
+    z-index: 0;
+    
+}
+
+.gallery--imgOff:hover {
+    cursor: default;
+}
   
 .gallery--img:hover {
     transform: scale(3);
