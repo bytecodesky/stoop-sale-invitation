@@ -1,6 +1,5 @@
 .accessibility--section {
-    position: absolute;
-    left: 2rem;
+    align-self: flex-start;
 }
 
 img {
@@ -17,4 +16,8 @@ p {
     display: flex;
     flex-direction: row;
     align-items: end;
+}
+
+img:hover {
+    cursor: pointer;
 }
