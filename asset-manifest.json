@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/stoop-sale-invitation/static/css/main.d740dc1a.css",
+    "main.js": "/stoop-sale-invitation/static/js/main.de10b8b5.js",
+    "static/media/shoes.jpg": "/stoop-sale-invitation/static/media/shoes.c73490a178da9ee283f6.jpg",
+    "static/media/instagram.png": "/stoop-sale-invitation/static/media/instagram.8b5eaa7762a39cfbefcd.png",
+    "static/media/facebook.png": "/stoop-sale-invitation/static/media/facebook.e0493b917b209c005e2f.png",
+    "static/media/x.png": "/stoop-sale-invitation/static/media/x.22455e911ed0c0b5ac52.png",
+    "static/media/dishes.jpg": "/stoop-sale-invitation/static/media/dishes.09097744b4e31c8b1e2d.jpg",
+    "static/media/mute_icon.png": "/stoop-sale-invitation/static/media/mute_icon.5e6a87e69b8fa5d9049e.png",
+    "static/media/speaker icon ON.png": "/stoop-sale-invitation/static/media/speaker icon ON.aa199560739356b40920.png",
+    "static/media/clothes2.jpg": "/stoop-sale-invitation/static/media/clothes2.4402c7b8c689c5355c7e.jpg",
+    "index.html": "/stoop-sale-invitation/index.html",
+    "main.d740dc1a.css.map": "/stoop-sale-invitation/static/css/main.d740dc1a.css.map",
+    "main.de10b8b5.js.map": "/stoop-sale-invitation/static/js/main.de10b8b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d740dc1a.css",
+    "static/js/main.de10b8b5.js"
+  ]
+}
