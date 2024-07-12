@@ -24,13 +24,13 @@ function App() {
   return (
     <div className="App">      
       <div className='container'>
+        <Hero />
         <Accessibility 
         toggleSound={toggleSound}
         soundOn={soundOn}
         animateOn={animateOn}
         toggleAnimate={toggleAnimate}
         />
-        <Hero />
         <Details />      
         <Share />
         <Map />
