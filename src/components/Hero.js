@@ -4,7 +4,7 @@ import './Hero.css';
 export default function Hero(props) {
     return (
         <div>
-            <h1 className='hero-title'>You're Invited!</h1>
+            <h1 className={props.animateOn === true ? 'hero-title' : 'hero-titleOff'}>You're Invited!</h1>
         </div>
     )
 }

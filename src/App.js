@@ -9,7 +9,7 @@ import Hero from './components/Hero';
 import Map from './components/Map';
 
 function App() {
-  const [soundOn, setSoundOn] = useState(true);
+  
   const [animateOn, setAnimateOn] = useState(true);
 
   function toggleSound() {
@@ -23,13 +23,15 @@ function App() {
 
   return (
     <div className="App">      
-      <div className='container'>
-        <Hero />
+      <div className='container'>        
         <Accessibility 
         toggleSound={toggleSound}
         soundOn={soundOn}
         animateOn={animateOn}
         toggleAnimate={toggleAnimate}
+        />
+        <Hero 
+        animateOn={animateOn}
         />
         <Details />      
         <Share 

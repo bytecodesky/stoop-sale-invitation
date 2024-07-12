@@ -1,19 +1,34 @@
 @keyframes appearAndRotate {
     0% {
-      opacity: 0;
+      
       transform: rotate(0deg);
     }
     50% {
-      opacity: 1;
+      
       transform: rotate(360deg);
     }
     100% {
-      opacity: 1;
+      
       transform: rotate(0deg);
     }
   }
 
-  .hero-title {
-    opacity: 0;
-    animation: appearAndRotate 3s ease-in-out forwards;
+.hero-title {
+    
+    font-weight: bold;
+    font-size: 5rem;
+    color: lightcoral;
+
   }
+
+.hero-title:hover {
+    animation: appearAndRotate 3s ease-in-out forwards;
+    cursor: pointer;
+  }
+
+.hero-titleOff {
+  font-weight: bold;
+  font-size: 5rem;
+  color: lightcoral;
+    
+}

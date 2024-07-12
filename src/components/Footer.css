@@ -1,0 +1,15 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100px; 
+    padding: 20px;    
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 0;
+    padding: 0 15px;
+    font-style: italic;
+    color: rgb(225, 126, 4);
+}
