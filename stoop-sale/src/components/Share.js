@@ -6,9 +6,11 @@ import instagram from './images/instagram.png';
 
 export default function Share() {
     return (
-        <div>
+        <div class="container-social-media" >
+        <h3>Share this event!</h3><hr>
+        </hr>
         {/* social share icons => Angel */}
-        <div>
+        <div class="icons">
           <a href="https://www.facebook.com/share?url=https://example.com" target="_blank" rel="noopener noreferrer">
             <img src={facebook} alt="Facebook" />
           </a>
