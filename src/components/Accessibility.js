@@ -10,11 +10,11 @@ export default function Accessibility(props) {
     return (
         <div className='accessibility--section'>
             <div className='accessibility--option'>
-                <img src={props.soundOn === true ? speakerOn : speakerOff} onClick={props.toggleSound}/>
+                <img src={props.soundOn === true ? speakerOn : speakerOff} onClick={props.toggleSound} alt='speaker icon'/>
                 <p>{props.soundOn === true ? "Turn Sound OFF" : "Turn Sound ON"}</p>            
             </div>
             <div className='accessibility--option'>  
-                <img src={animateIcon} onClick={props.toggleAnimate}/>
+                <img src={animateIcon} onClick={props.toggleAnimate} alt='play pause icon'/>
                 <p>{props.animateOn === true ? "Turn Animation OFF" : "Turn Animation ON"}</p>
             </div>  
         </div>
