@@ -33,7 +33,9 @@ function App() {
         />
         <Details />      
         <Share />
-        <Map />
+        <Map 
+        animateOn={animateOn}
+        />
         <Gallery />
         <Footer />
       </div>
