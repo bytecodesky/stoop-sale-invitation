@@ -32,7 +32,9 @@ function App() {
         toggleAnimate={toggleAnimate}
         />
         <Details />      
-        <Share />
+        <Share 
+        animateOn={animateOn}
+        />
         <Map 
         animateOn={animateOn}
         />
